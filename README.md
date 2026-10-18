@@ -13,7 +13,7 @@ Early development.
 - [ ] `packages/extension` — MV3 extension (Chrome/Firefox) that writes the attributes into Roll20
 - [ ] Optional Roll20 API script for GMs with Pro
 
-See [`docs/`](docs): [`mapowanie.md`](docs/mapowanie.md) (field mapping), [`istniejace-rozwiazania.md`](docs/istniejace-rozwiazania.md) (prior art).
+See [`docs/PLAN.md`](docs/PLAN.md) (full project plan), [`docs/`](docs): [`mapowanie.md`](docs/mapowanie.md) (field mapping), [`istniejace-rozwiazania.md`](docs/istniejace-rozwiazania.md) (prior art).
 
 ## Development
 
