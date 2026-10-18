@@ -1,0 +1,1811 @@
+{
+  "generatedFrom": {
+    "sheet": "Pathfinder Second Edition by Roll20",
+    "commit": "1ae21cf5df361a529ae15b7b3a2534bfef10c555 2026-10-15",
+    "htmlBytes": 581296
+  },
+  "attributes": [
+    "ac",
+    "acrobatics",
+    "acrobatics_ability",
+    "acrobatics_ability_select",
+    "acrobatics_armor",
+    "acrobatics_item",
+    "acrobatics_notes",
+    "acrobatics_proficiency",
+    "acrobatics_proficiency_display",
+    "acrobatics_rank",
+    "acrobatics_temporary",
+    "age",
+    "alignment",
+    "ancestry_heritage",
+    "appearance",
+    "arcana",
+    "arcana_ability",
+    "arcana_ability_select",
+    "arcana_item",
+    "arcana_notes",
+    "arcana_proficiency",
+    "arcana_proficiency_display",
+    "arcana_rank",
+    "arcana_temporary",
+    "armor_class",
+    "armor_class_ability",
+    "armor_class_ability_select",
+    "armor_class_cap",
+    "armor_class_dc_base",
+    "armor_class_dc_rank",
+    "armor_class_heavy_rank",
+    "armor_class_item",
+    "armor_class_light_rank",
+    "armor_class_medium_rank",
+    "armor_class_notes",
+    "armor_class_proficiency",
+    "armor_class_proficiency_display",
+    "armor_class_shield",
+    "armor_class_shield_ac_bonus",
+    "armor_class_shield_bt",
+    "armor_class_shield_hardness",
+    "armor_class_shield_hp",
+    "armor_class_shield_max",
+    "armor_class_shield_notes",
+    "armor_class_shield_temporary",
+    "armor_class_temporary",
+    "armor_class_unarmored_rank",
+    "athletics",
+    "athletics_ability",
+    "athletics_ability_select",
+    "athletics_armor",
+    "athletics_item",
+    "athletics_notes",
+    "athletics_proficiency",
+    "athletics_proficiency_display",
+    "athletics_rank",
+    "athletics_temporary",
+    "attitude",
+    "background",
+    "beliefs",
+    "birthplace",
+    "build_message",
+    "bulk",
+    "campaign_notes",
+    "campaign_notes_allies",
+    "campaign_notes_enemies",
+    "campaign_notes_organizations",
+    "cantrip_spelldrop_data",
+    "cantrip_spelldrop_name",
+    "cantrip_spelldrop_uniq",
+    "cantrips_per_day",
+    "catchphrases",
+    "character_name",
+    "charisma",
+    "charisma_modifier",
+    "charisma_modifier_temporary",
+    "charisma_notes",
+    "charisma_score",
+    "charisma_score_temporary",
+    "class",
+    "class_dc",
+    "class_dc_item",
+    "class_dc_key_ability",
+    "class_dc_key_ability_select",
+    "class_dc_notes",
+    "class_dc_proficiency",
+    "class_dc_proficiency_display",
+    "class_dc_rank",
+    "class_dc_temporary",
+    "color_scheme",
+    "constitution",
+    "constitution_modifier",
+    "constitution_modifier_temporary",
+    "constitution_notes",
+    "constitution_score",
+    "constitution_score_temporary",
+    "cp",
+    "crafting",
+    "crafting_ability",
+    "crafting_ability_select",
+    "crafting_item",
+    "crafting_notes",
+    "crafting_proficiency",
+    "crafting_proficiency_display",
+    "crafting_rank",
+    "crafting_temporary",
+    "deception",
+    "deception_ability",
+    "deception_ability_select",
+    "deception_item",
+    "deception_notes",
+    "deception_proficiency",
+    "deception_proficiency_display",
+    "deception_rank",
+    "deception_temporary",
+    "deity",
+    "dexterity",
+    "dexterity_modifier",
+    "dexterity_modifier_temporary",
+    "dexterity_notes",
+    "dexterity_score",
+    "dexterity_score_temporary",
+    "diplomacy",
+    "diplomacy_ability",
+    "diplomacy_ability_select",
+    "diplomacy_item",
+    "diplomacy_notes",
+    "diplomacy_proficiency",
+    "diplomacy_proficiency_display",
+    "diplomacy_rank",
+    "diplomacy_temporary",
+    "dislikes",
+    "encumbered_base",
+    "encumbered_modifier",
+    "ethnicity",
+    "focus_points",
+    "focus_points_max",
+    "gender_pronouns",
+    "gp",
+    "height",
+    "hero_points",
+    "hit_points",
+    "hit_points_ancestry",
+    "hit_points_class",
+    "hit_points_dying",
+    "hit_points_item",
+    "hit_points_max",
+    "hit_points_notes",
+    "hit_points_other",
+    "hit_points_temporary",
+    "hit_points_wounded",
+    "immunities",
+    "initiative",
+    "initiative_modifier",
+    "initiative_skill",
+    "intelligence",
+    "intelligence_modifier",
+    "intelligence_modifier_temporary",
+    "intelligence_notes",
+    "intelligence_score",
+    "intelligence_score_temporary",
+    "intimidation",
+    "intimidation_ability",
+    "intimidation_ability_select",
+    "intimidation_item",
+    "intimidation_notes",
+    "intimidation_proficiency",
+    "intimidation_proficiency_display",
+    "intimidation_rank",
+    "intimidation_temporary",
+    "languages",
+    "level",
+    "level_10_per_day",
+    "level_10_per_day_max",
+    "level_1_per_day",
+    "level_1_per_day_max",
+    "level_2_per_day",
+    "level_2_per_day_max",
+    "level_3_per_day",
+    "level_3_per_day_max",
+    "level_4_per_day",
+    "level_4_per_day_max",
+    "level_5_per_day",
+    "level_5_per_day_max",
+    "level_6_per_day",
+    "level_6_per_day_max",
+    "level_7_per_day",
+    "level_7_per_day_max",
+    "level_8_per_day",
+    "level_8_per_day_max",
+    "level_9_per_day",
+    "level_9_per_day_max",
+    "likes",
+    "magic_tradition_arcane",
+    "magic_tradition_arcane_proficiency",
+    "magic_tradition_arcane_rank",
+    "magic_tradition_divine",
+    "magic_tradition_divine_proficiency",
+    "magic_tradition_divine_rank",
+    "magic_tradition_occult",
+    "magic_tradition_occult_proficiency",
+    "magic_tradition_occult_rank",
+    "magic_tradition_primal",
+    "magic_tradition_primal_proficiency",
+    "magic_tradition_primal_rank",
+    "maximum_base",
+    "maximum_modifier",
+    "medicine",
+    "medicine_ability",
+    "medicine_ability_select",
+    "medicine_item",
+    "medicine_notes",
+    "medicine_proficiency",
+    "medicine_proficiency_display",
+    "medicine_rank",
+    "medicine_temporary",
+    "nationality",
+    "nature",
+    "nature_ability",
+    "nature_ability_select",
+    "nature_item",
+    "nature_notes",
+    "nature_proficiency",
+    "nature_proficiency_display",
+    "nature_rank",
+    "nature_temporary",
+    "normalspells_spelldrop_data",
+    "normalspells_spelldrop_name",
+    "normalspells_spelldrop_uniq",
+    "npc_fromcompendium",
+    "npc_type",
+    "npcdrop_category",
+    "npcdrop_data",
+    "npcdrop_name",
+    "npcdrop_uniq",
+    "occultism",
+    "occultism_ability",
+    "occultism_ability_select",
+    "occultism_item",
+    "occultism_notes",
+    "occultism_proficiency",
+    "occultism_proficiency_display",
+    "occultism_rank",
+    "occultism_temporary",
+    "perception",
+    "perception_ability",
+    "perception_ability_select",
+    "perception_item",
+    "perception_notes",
+    "perception_proficiency",
+    "perception_proficiency_display",
+    "perception_rank",
+    "perception_temporary",
+    "performance",
+    "performance_ability",
+    "performance_ability_select",
+    "performance_item",
+    "performance_notes",
+    "performance_proficiency",
+    "performance_proficiency_display",
+    "performance_rank",
+    "performance_temporary",
+    "player_name",
+    "pp",
+    "query_roll_bonus",
+    "query_roll_damage_bonus",
+    "query_roll_damage_dice",
+    "religion",
+    "religion_ability",
+    "religion_ability_select",
+    "religion_item",
+    "religion_notes",
+    "religion_proficiency",
+    "religion_proficiency_display",
+    "religion_rank",
+    "religion_temporary",
+    "resistances",
+    "roll_limit_height",
+    "roll_option_critical_damage",
+    "roll_show_notes",
+    "saving_throws_fortitude",
+    "saving_throws_fortitude_ability",
+    "saving_throws_fortitude_ability_select",
+    "saving_throws_fortitude_item",
+    "saving_throws_fortitude_proficiency",
+    "saving_throws_fortitude_proficiency_display",
+    "saving_throws_fortitude_rank",
+    "saving_throws_fortitude_temporary",
+    "saving_throws_notes",
+    "saving_throws_reflex",
+    "saving_throws_reflex_ability",
+    "saving_throws_reflex_ability_select",
+    "saving_throws_reflex_item",
+    "saving_throws_reflex_proficiency",
+    "saving_throws_reflex_proficiency_display",
+    "saving_throws_reflex_rank",
+    "saving_throws_reflex_temporary",
+    "saving_throws_will",
+    "saving_throws_will_ability",
+    "saving_throws_will_ability_select",
+    "saving_throws_will_item",
+    "saving_throws_will_proficiency",
+    "saving_throws_will_proficiency_display",
+    "saving_throws_will_rank",
+    "saving_throws_will_temporary",
+    "senses",
+    "sheet_type",
+    "size",
+    "society",
+    "society_ability",
+    "society_ability_select",
+    "society_item",
+    "society_notes",
+    "society_proficiency",
+    "society_proficiency_display",
+    "society_rank",
+    "society_temporary",
+    "sort_cantrip",
+    "sort_normalspells",
+    "sort_spellfocus",
+    "sort_spellinnate",
+    "sp",
+    "speed",
+    "speed_notes",
+    "spell_attack",
+    "spell_attack_key_ability",
+    "spell_attack_key_ability_select",
+    "spell_attack_notes",
+    "spell_attack_proficiency",
+    "spell_attack_proficiency_display",
+    "spell_attack_rank",
+    "spell_attack_temporary",
+    "spell_dc",
+    "spell_dc_key_ability",
+    "spell_dc_key_ability_select",
+    "spell_dc_notes",
+    "spell_dc_proficiency",
+    "spell_dc_proficiency_display",
+    "spell_dc_rank",
+    "spell_dc_temporary",
+    "spellcaster_prepared",
+    "spellcaster_spontaneous",
+    "spellfocus_spelldrop_data",
+    "spellfocus_spelldrop_name",
+    "spellfocus_spelldrop_uniq",
+    "spellinnate_spelldrop_data",
+    "spellinnate_spelldrop_name",
+    "spellinnate_spelldrop_uniq",
+    "stealth",
+    "stealth_ability",
+    "stealth_ability_select",
+    "stealth_armor",
+    "stealth_item",
+    "stealth_notes",
+    "stealth_proficiency",
+    "stealth_proficiency_display",
+    "stealth_rank",
+    "stealth_temporary",
+    "strength",
+    "strength_modifier",
+    "strength_modifier_half",
+    "strength_modifier_temporary",
+    "strength_notes",
+    "strength_score",
+    "strength_score_temporary",
+    "survival",
+    "survival_ability",
+    "survival_ability_select",
+    "survival_item",
+    "survival_notes",
+    "survival_proficiency",
+    "survival_proficiency_display",
+    "survival_rank",
+    "survival_temporary",
+    "text_#_damage_dice",
+    "text_ability_modifier",
+    "text_bonus",
+    "text_modifier",
+    "text_roll_bonus",
+    "text_roll_damage_bonus",
+    "text_use",
+    "thievery",
+    "thievery_ability",
+    "thievery_ability_select",
+    "thievery_armor",
+    "thievery_item",
+    "thievery_notes",
+    "thievery_proficiency",
+    "thievery_proficiency_display",
+    "thievery_rank",
+    "thievery_temporary",
+    "toggle_cantrips",
+    "toggle_focus",
+    "toggle_innate",
+    "toggle_normalspells",
+    "toggles",
+    "traits",
+    "version",
+    "version_character",
+    "weaknesses",
+    "weapon_proficiencies_martial_rank",
+    "weapon_proficiencies_simple_rank",
+    "weight",
+    "whispertype",
+    "wisdom",
+    "wisdom_modifier",
+    "wisdom_modifier_temporary",
+    "wisdom_notes",
+    "wisdom_score",
+    "wisdom_score_temporary",
+    "xp"
+  ],
+  "buttons": [
+    "ACROBATICS",
+    "ARCANA",
+    "ATHLETICS",
+    "CHA",
+    "CON",
+    "CRAFTING",
+    "DECEPTION",
+    "DEX",
+    "DIPLOMACY",
+    "FORT",
+    "INITIATIVE",
+    "INT",
+    "INTIMIDATION",
+    "MEDICINE",
+    "NATURE",
+    "OCCULTISM",
+    "PERCEPTION",
+    "PERFORMANCE",
+    "REF",
+    "RELIGION",
+    "SOCIETY",
+    "STEALTH",
+    "STR",
+    "SURVIVAL",
+    "THIEVERY",
+    "WILL",
+    "WIS"
+  ],
+  "actions": [
+    "toggle_acrobatics",
+    "toggle_arcana",
+    "toggle_armor_class",
+    "toggle_athletics",
+    "toggle_character",
+    "toggle_charisma",
+    "toggle_class_dc",
+    "toggle_constitution",
+    "toggle_crafting",
+    "toggle_deception",
+    "toggle_dexterity",
+    "toggle_diplomacy",
+    "toggle_hitpoints",
+    "toggle_intelligence",
+    "toggle_intimidation",
+    "toggle_medicine",
+    "toggle_nature",
+    "toggle_notes",
+    "toggle_npc",
+    "toggle_npcsettings",
+    "toggle_npcspellcaster",
+    "toggle_occultism",
+    "toggle_perception",
+    "toggle_performance",
+    "toggle_religion",
+    "toggle_saving_throws",
+    "toggle_shield",
+    "toggle_society",
+    "toggle_spell_attack",
+    "toggle_spell_dc",
+    "toggle_stealth",
+    "toggle_strength",
+    "toggle_survival",
+    "toggle_thievery",
+    "toggle_wisdom"
+  ],
+  "sections": {
+    "actions": {
+      "attributes": [
+        "action",
+        "action_type",
+        "description",
+        "name",
+        "other",
+        "source",
+        "toggles",
+        "traits",
+        "trigger"
+      ],
+      "buttons": [
+        "action"
+      ],
+      "actions": [
+        "collapse",
+        "settings"
+      ]
+    },
+    "actions-activities": {
+      "attributes": [
+        "actions",
+        "description",
+        "name",
+        "source",
+        "toggles",
+        "traits"
+      ],
+      "buttons": [
+        "action"
+      ],
+      "actions": [
+        "settings"
+      ]
+    },
+    "cantrip": {
+      "attributes": [
+        "area",
+        "attack_checkbox",
+        "attack_roll",
+        "cast",
+        "cast_actions",
+        "cast_detail_information",
+        "cast_detail_label",
+        "current_level",
+        "damage_ability",
+        "damage_additional",
+        "damage_checkbox",
+        "damage_critical_roll",
+        "damage_dice",
+        "damage_misc",
+        "damage_roll",
+        "damage_type",
+        "description",
+        "duration",
+        "frequency",
+        "heightened",
+        "magic_tradition",
+        "name",
+        "npc_attack_checkbox",
+        "npc_attack_roll",
+        "npc_save_roll",
+        "npc_save_roll_basic",
+        "npc_saving_throw_select",
+        "range",
+        "roll_critical_damage",
+        "roll_critical_damage_button",
+        "save_critical_failure",
+        "save_critical_success",
+        "save_failure",
+        "save_roll",
+        "save_roll_basic",
+        "save_success",
+        "save_type",
+        "saving_throw_select",
+        "school",
+        "spell_dc",
+        "spellattack",
+        "spellattack_misc",
+        "spelldc",
+        "spelldc_misc",
+        "spelllevel",
+        "target",
+        "toggles",
+        "traits",
+        "uses",
+        "uses_max"
+      ],
+      "buttons": [
+        "CRITICAL_DAMAGE",
+        "npcspellroll",
+        "spellroll"
+      ],
+      "actions": [
+        "collapse",
+        "settings"
+      ]
+    },
+    "conditions": {
+      "attributes": [
+        "condition",
+        "condition_notes",
+        "toggles"
+      ],
+      "buttons": [
+        "CONDITION"
+      ],
+      "actions": [
+        "collapse",
+        "settings"
+      ]
+    },
+    "feat-ancestry": {
+      "attributes": [
+        "feat_ancestry",
+        "feat_ancestry_level",
+        "feat_ancestry_notes",
+        "feat_ancestry_type",
+        "toggles"
+      ],
+      "buttons": [
+        "ACTION"
+      ],
+      "actions": [
+        "collapse",
+        "settings"
+      ]
+    },
+    "feat-bonus": {
+      "attributes": [
+        "feat_bonus",
+        "feat_bonus_notes",
+        "toggles"
+      ],
+      "buttons": [
+        "action"
+      ],
+      "actions": [
+        "collapse",
+        "settings"
+      ]
+    },
+    "feat-class": {
+      "attributes": [
+        "feat_class",
+        "feat_class_level",
+        "feat_class_notes",
+        "feat_class_type",
+        "toggles"
+      ],
+      "buttons": [
+        "action"
+      ],
+      "actions": [
+        "collapse",
+        "settings"
+      ]
+    },
+    "feat-general": {
+      "attributes": [
+        "feat_general",
+        "feat_general_level",
+        "feat_general_notes",
+        "toggles"
+      ],
+      "buttons": [
+        "action"
+      ],
+      "actions": [
+        "collapse",
+        "settings"
+      ]
+    },
+    "feat-skill": {
+      "attributes": [
+        "feat_skill",
+        "feat_skill_level",
+        "feat_skill_notes",
+        "toggles"
+      ],
+      "buttons": [
+        "action"
+      ],
+      "actions": [
+        "collapse",
+        "settings"
+      ]
+    },
+    "free-actions-reactions": {
+      "attributes": [
+        "action_type",
+        "description",
+        "free_action",
+        "name",
+        "reaction",
+        "source",
+        "toggles",
+        "traits",
+        "trigger"
+      ],
+      "buttons": [
+        "action"
+      ],
+      "actions": [
+        "settings"
+      ]
+    },
+    "interaction-abilities": {
+      "attributes": [
+        "description",
+        "name",
+        "toggles",
+        "traits"
+      ],
+      "buttons": [
+        "action"
+      ],
+      "actions": [
+        "settings"
+      ]
+    },
+    "items-other": {
+      "attributes": [
+        "other_bulk",
+        "other_item",
+        "other_item_notes",
+        "other_quantity",
+        "toggles"
+      ],
+      "buttons": [
+        "action"
+      ],
+      "actions": [
+        "collapse",
+        "settings"
+      ]
+    },
+    "items-readied": {
+      "attributes": [
+        "readied_bulk",
+        "readied_item",
+        "readied_item_notes",
+        "readied_quantity",
+        "toggles"
+      ],
+      "buttons": [
+        "action"
+      ],
+      "actions": [
+        "collapse",
+        "settings"
+      ]
+    },
+    "items-worn": {
+      "attributes": [
+        "description",
+        "toggles",
+        "worn_bulk",
+        "worn_invest",
+        "worn_item",
+        "worn_item_notes",
+        "worn_quantity"
+      ],
+      "buttons": [
+        "ACTION",
+        "action"
+      ],
+      "actions": [
+        "collapse",
+        "settings"
+      ]
+    },
+    "languages": {
+      "attributes": [
+        "language",
+        "language_notes",
+        "toggles"
+      ],
+      "buttons": [],
+      "actions": [
+        "collapse",
+        "settings"
+      ]
+    },
+    "lore": {
+      "attributes": [
+        "lore",
+        "lore_ability",
+        "lore_ability_select",
+        "lore_item",
+        "lore_name",
+        "lore_notes",
+        "lore_proficiency",
+        "lore_proficiency_display",
+        "lore_rank",
+        "lore_temporary",
+        "toggles"
+      ],
+      "buttons": [
+        "LORE"
+      ],
+      "actions": [
+        "settings"
+      ]
+    },
+    "melee-strikes": {
+      "attributes": [
+        "damage_ability",
+        "damage_ability_select",
+        "damage_additional",
+        "damage_additional_roll",
+        "damage_additional_roll_npc",
+        "damage_b",
+        "damage_critical_roll",
+        "damage_critical_roll_npc",
+        "damage_dice",
+        "damage_dice_query",
+        "damage_dice_size",
+        "damage_display",
+        "damage_display_npc",
+        "damage_effects",
+        "damage_info",
+        "damage_other",
+        "damage_p",
+        "damage_roll",
+        "damage_roll_npc",
+        "damage_s",
+        "damage_temporary",
+        "damage_weapon_specialization",
+        "roll_critical_damage",
+        "roll_critical_damage_button",
+        "roll_critical_damage_button_npc",
+        "roll_critical_damage_npc",
+        "toggles",
+        "weapon",
+        "weapon_ability",
+        "weapon_ability_select",
+        "weapon_display",
+        "weapon_item",
+        "weapon_notes",
+        "weapon_proficiency_display",
+        "weapon_rank",
+        "weapon_roll",
+        "weapon_roll_npc",
+        "weapon_strike",
+        "weapon_strike_damage",
+        "weapon_strike_damage_additional",
+        "weapon_strike_damage_type",
+        "weapon_temporary",
+        "weapon_traits"
+      ],
+      "buttons": [
+        "ATTACK",
+        "ATTACK-DAMAGE",
+        "ATTACK-DAMAGE-NPC",
+        "ATTACK-NPC",
+        "CRITICAL_DAMAGE",
+        "CRITICAL_DAMAGE_NPC",
+        "DAMAGE",
+        "DAMAGE-NPC"
+      ],
+      "actions": [
+        "collapse",
+        "settings"
+      ]
+    },
+    "normalspells": {
+      "attributes": [
+        "area",
+        "attack_checkbox",
+        "attack_roll",
+        "cast",
+        "cast_actions",
+        "cast_detail_information",
+        "cast_detail_label",
+        "current_level",
+        "damage_ability",
+        "damage_additional",
+        "damage_checkbox",
+        "damage_critical_roll",
+        "damage_dice",
+        "damage_misc",
+        "damage_roll",
+        "damage_type",
+        "description",
+        "duration",
+        "frequency",
+        "heightened",
+        "magic_tradition",
+        "name",
+        "npc_attack_checkbox",
+        "npc_attack_roll",
+        "npc_save_roll",
+        "npc_save_roll_basic",
+        "npc_saving_throw_select",
+        "range",
+        "roll_critical_damage",
+        "roll_critical_damage_button",
+        "save_critical_failure",
+        "save_critical_success",
+        "save_failure",
+        "save_roll",
+        "save_roll_basic",
+        "save_success",
+        "save_type",
+        "saving_throw_select",
+        "school",
+        "spell_dc",
+        "spellattack",
+        "spellattack_misc",
+        "spelldc",
+        "spelldc_misc",
+        "spelllevel",
+        "target",
+        "toggles",
+        "traits",
+        "uses",
+        "uses_max"
+      ],
+      "buttons": [
+        "CRITICAL_DAMAGE",
+        "npcspellroll",
+        "spellroll"
+      ],
+      "actions": [
+        "collapse",
+        "settings"
+      ]
+    },
+    "ranged-strikes": {
+      "attributes": [
+        "damage_ability",
+        "damage_ability_select",
+        "damage_additional",
+        "damage_additional_roll",
+        "damage_additional_roll_npc",
+        "damage_b",
+        "damage_critical_roll",
+        "damage_critical_roll_npc",
+        "damage_dice",
+        "damage_dice_query",
+        "damage_dice_size",
+        "damage_display",
+        "damage_display_npc",
+        "damage_effects",
+        "damage_info",
+        "damage_other",
+        "damage_p",
+        "damage_roll",
+        "damage_roll_npc",
+        "damage_s",
+        "damage_temporary",
+        "damage_weapon_specialization",
+        "roll_critical_damage",
+        "roll_critical_damage_button",
+        "roll_critical_damage_button_npc",
+        "roll_critical_damage_npc",
+        "toggles",
+        "weapon",
+        "weapon_ability",
+        "weapon_ability_select",
+        "weapon_display",
+        "weapon_item",
+        "weapon_notes",
+        "weapon_proficiency_display",
+        "weapon_range",
+        "weapon_rank",
+        "weapon_roll",
+        "weapon_roll_npc",
+        "weapon_strike",
+        "weapon_strike_damage",
+        "weapon_strike_damage_additional",
+        "weapon_strike_damage_type",
+        "weapon_temporary",
+        "weapon_traits"
+      ],
+      "buttons": [
+        "ATTACK",
+        "ATTACK-DAMAGE",
+        "ATTACK-DAMAGE-NPC",
+        "ATTACK-NPC",
+        "CRITICAL_DAMAGE",
+        "CRITICAL_DAMAGE_NPC",
+        "DAMAGE",
+        "DAMAGE-NPC"
+      ],
+      "actions": [
+        "collapse",
+        "settings"
+      ]
+    },
+    "resistances-immunities": {
+      "attributes": [
+        "resistances_and_immunities",
+        "resistances_and_immunities_notes",
+        "toggles"
+      ],
+      "buttons": [
+        "RESIST"
+      ],
+      "actions": [
+        "collapse",
+        "settings"
+      ]
+    },
+    "senses": {
+      "attributes": [
+        "sense",
+        "sense_notes",
+        "toggles"
+      ],
+      "buttons": [],
+      "actions": [
+        "collapse",
+        "settings"
+      ]
+    },
+    "spellfocus": {
+      "attributes": [
+        "area",
+        "attack_checkbox",
+        "attack_roll",
+        "cast",
+        "cast_actions",
+        "cast_detail_information",
+        "cast_detail_label",
+        "current_level",
+        "damage_ability",
+        "damage_additional",
+        "damage_checkbox",
+        "damage_critical_roll",
+        "damage_dice",
+        "damage_misc",
+        "damage_roll",
+        "damage_type",
+        "description",
+        "domain",
+        "duration",
+        "frequency",
+        "heightened",
+        "name",
+        "npc_attack_checkbox",
+        "npc_attack_roll",
+        "npc_save_roll",
+        "npc_save_roll_basic",
+        "npc_saving_throw_select",
+        "range",
+        "roll_critical_damage",
+        "roll_critical_damage_button",
+        "save_critical_failure",
+        "save_critical_success",
+        "save_failure",
+        "save_roll",
+        "save_roll_basic",
+        "save_success",
+        "save_type",
+        "saving_throw_select",
+        "school",
+        "spell_dc",
+        "spellattack",
+        "spellattack_ability",
+        "spellattack_misc",
+        "spelldc",
+        "spelldc_ability",
+        "spelldc_misc",
+        "spelldc_rank",
+        "spelllevel",
+        "target",
+        "toggles",
+        "traits"
+      ],
+      "buttons": [
+        "CRITICAL_DAMAGE",
+        "npcspellroll",
+        "spellroll"
+      ],
+      "actions": [
+        "collapse",
+        "settings"
+      ]
+    },
+    "spellinnate": {
+      "attributes": [
+        "area",
+        "attack_checkbox",
+        "attack_roll",
+        "cast",
+        "cast_actions",
+        "cast_detail_information",
+        "cast_detail_label",
+        "current_level",
+        "damage_ability",
+        "damage_additional",
+        "damage_checkbox",
+        "damage_critical_roll",
+        "damage_dice",
+        "damage_misc",
+        "damage_roll",
+        "damage_type",
+        "description",
+        "duration",
+        "frequency",
+        "heightened",
+        "magic_tradition",
+        "name",
+        "npc_attack_checkbox",
+        "npc_attack_roll",
+        "npc_save_roll",
+        "npc_save_roll_basic",
+        "npc_saving_throw_select",
+        "range",
+        "roll_critical_damage",
+        "roll_critical_damage_button",
+        "save_critical_failure",
+        "save_critical_success",
+        "save_failure",
+        "save_roll",
+        "save_roll_basic",
+        "save_success",
+        "save_type",
+        "saving_throw_select",
+        "school",
+        "spell_dc",
+        "spellattack",
+        "spellattack_ability",
+        "spellattack_misc",
+        "spellattack_rank",
+        "spelldc",
+        "spelldc_ability",
+        "spelldc_misc",
+        "spelldc_rank",
+        "spelllevel",
+        "target",
+        "toggles",
+        "traits",
+        "uses",
+        "uses_max"
+      ],
+      "buttons": [
+        "CRITICAL_DAMAGE",
+        "npcspellroll",
+        "spellroll"
+      ],
+      "actions": [
+        "collapse",
+        "settings"
+      ]
+    },
+    "weapon-proficiencies": {
+      "attributes": [
+        "toggles",
+        "weapon_proficiencies_other",
+        "weapon_proficiencies_other_rank"
+      ],
+      "buttons": [],
+      "actions": []
+    }
+  },
+  "selects": {
+    "acrobatics_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "acrobatics_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "action": [
+      "1-action",
+      "1-to-3-actions",
+      "2-action",
+      "3-action",
+      "free_action",
+      "other",
+      "reaction"
+    ],
+    "arcana_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "arcana_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "armor_class_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "armor_class_dc_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "armor_class_heavy_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "armor_class_light_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "armor_class_medium_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "armor_class_unarmored_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "athletics_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "athletics_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "cast_actions": [
+      "1-action",
+      "1-to-3-actions",
+      "2-action",
+      "3-action",
+      "free_action",
+      "reaction"
+    ],
+    "cast_detail_label": [
+      "cost",
+      "requirement",
+      "trigger"
+    ],
+    "class_dc_key_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "class_dc_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "color_scheme": [
+      "default",
+      "neutral"
+    ],
+    "crafting_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "crafting_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "damage_ability": [
+      "0",
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}"
+    ],
+    "damage_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier_half}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "deception_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "deception_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "diplomacy_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "diplomacy_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "frequency": [
+      "at-will",
+      "constant",
+      "daily-limit"
+    ],
+    "initiative_skill": [
+      "acrobatics",
+      "arcana",
+      "athletics",
+      "crafting",
+      "deception",
+      "diplomacy",
+      "intimidation",
+      "medicine",
+      "nature",
+      "occultism",
+      "perception",
+      "performance",
+      "religion",
+      "society",
+      "stealth",
+      "survival",
+      "thievery"
+    ],
+    "intimidation_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "intimidation_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "lore_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "lore_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "magic_tradition": [
+      "arcane",
+      "divine",
+      "empty-string",
+      "occult",
+      "primal"
+    ],
+    "magic_tradition_arcane_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "magic_tradition_divine_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "magic_tradition_occult_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "magic_tradition_primal_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "medicine_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "medicine_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "nature_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "nature_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "npc_saving_throw_select": [
+      "",
+      "@{npc_save_roll_basic}",
+      "@{npc_save_roll}"
+    ],
+    "occultism_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "occultism_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "perception_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "perception_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "performance_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "performance_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "religion_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "religion_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "roll_option_critical_damage": [
+      "auto",
+      "button",
+      "none"
+    ],
+    "save_type": [
+      "empty-string",
+      "fortitude",
+      "reflex",
+      "will"
+    ],
+    "saving_throw_select": [
+      "",
+      "@{save_roll_basic}",
+      "@{save_roll}"
+    ],
+    "saving_throws_fortitude_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "saving_throws_fortitude_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "saving_throws_reflex_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "saving_throws_reflex_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "saving_throws_will_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "saving_throws_will_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "school": [
+      "abjuration",
+      "conjuration",
+      "divination",
+      "enchantment",
+      "evocation",
+      "illusion",
+      "necromancy",
+      "transmutation"
+    ],
+    "society_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "society_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "sort_cantrip": [
+      "",
+      "level",
+      "level_desc",
+      "name",
+      "name_desc"
+    ],
+    "sort_normalspells": [
+      "",
+      "level",
+      "level_desc",
+      "name",
+      "name_desc"
+    ],
+    "sort_spellfocus": [
+      "",
+      "level",
+      "level_desc",
+      "name",
+      "name_desc"
+    ],
+    "sort_spellinnate": [
+      "",
+      "level",
+      "level_desc",
+      "name",
+      "name_desc"
+    ],
+    "spell_attack_key_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "spell_attack_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "spell_dc_key_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "spell_dc_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "spellattack_ability": [
+      "0",
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}"
+    ],
+    "spellattack_rank": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "spelldc_ability": [
+      "0",
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}"
+    ],
+    "spelldc_rank": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "stealth_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "stealth_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "survival_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "survival_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "thievery_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "thievery_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "weapon_ability_select": [
+      "@{charisma_modifier}",
+      "@{constitution_modifier}",
+      "@{dexterity_modifier}",
+      "@{intelligence_modifier}",
+      "@{strength_modifier}",
+      "@{wisdom_modifier}",
+      "custom"
+    ],
+    "weapon_proficiencies_martial_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "weapon_proficiencies_other_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "weapon_proficiencies_simple_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "weapon_rank": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "whispertype": [
+      "",
+      "/w gm ",
+      "?{Whisper?|Public Roll,|Whisper Roll,/w gm }"
+    ]
+  }
+}

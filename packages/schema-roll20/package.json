@@ -1,0 +1,8 @@
+{
+  "name": "@path20/schema-roll20",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "schema.json",
+  "description": "Generated attribute/section/button schema of the official Pathfinder Second Edition by Roll20 sheet. Regenerate with scripts/extract-sheet-schema.mjs."
+}
