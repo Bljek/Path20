@@ -30,6 +30,9 @@ Claude's environment cannot open Roll20, and Roll20's client internals (`window.
 
 Optional later steps (add files as needed): rate/volume test (create 600 attributes, measure time and failures), update-in-place test, permission test as a non-GM player.
 
+## No DevTools (phone-only users)
+Use the on-screen panel instead of the console: `mobile/spike-panel.js` (bookmarklet in `mobile/spike-panel.bookmarklet.txt`, rebuild with `node scripts/build-bookmarklet.mjs`). It mirrors the snippets, so keep both in sync when you change one. Instructions for the user: `docs/mobile-spike.md`. First question to answer on mobile is whether the Roll20 editor (`/editor/`, desktop mode) loads at all.
+
 ## Automating instead of asking
 If the user has the `chrome-browser` skill / Claude in Chrome enabled on their computer, the same snippets can be driven directly in their Roll20 tab. Ask first; never act in a game without the user's go-ahead. Otherwise stay with copy-paste.
 
