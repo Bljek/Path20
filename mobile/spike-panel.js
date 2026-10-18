@@ -117,7 +117,44 @@
     log("done");
   };
 
-  btn("1 Probe", probe); btn("2 Create", create); btn("3 Readback", readback); btn("4 Macros", macros); btn("5 Cleanup", cleanup);
+  // READ-ONLY: lists the attributes of an existing character so we can learn the (unknown) sheet's schema.
+  const dump = () => {
+    const chars = C() && C().characters;
+    if (!chars) return log("FAIL: no Campaign.characters");
+    const open = document.querySelector(".characterdialog[data-characterid]");
+    let pc = open && chars.get && chars.get(open.getAttribute("data-characterid"));
+    if (!pc) {
+      const q = prompt("Character name (or part of it) to dump — read only:", "");
+      if (!q) return log("cancelled");
+      pc = chars.models.find((m) => String(m.get("name")).toLowerCase().includes(q.toLowerCase()));
+      if (!pc) return log("no character matches:", q);
+    }
+    const dlg = document.querySelector(".characterdialog");
+    log({
+      character: pc.get("name"), id: pc.id, attribCount: pc.attribs.length, abilityCount: pc.abilities && pc.abilities.length,
+      charAttributes: Object.fromEntries(Object.entries(pc.attributes).filter(([k, v]) => typeof v !== "object").map(([k, v]) => [k, String(v).slice(0, 60)])),
+      dom: dlg && { iframes: [...dlg.querySelectorAll("iframe")].map((f) => f.src || f.getAttribute("srcdoc") && "srcdoc"),
+        classes: dlg.className, sheetClasses: [...new Set([...dlg.querySelectorAll("[class*=sheet],[class*=charsheet],[class*=demiplane],[data-sheet]")].map((e) => e.className).slice(0, 15))] },
+      campaignSheetHints: C().attributes && Object.fromEntries(Object.entries(C().attributes).filter(([k]) => /sheet|template|demiplane|nexus/i.test(k))),
+    });
+    const names = pc.attribs.models.map((m) => [m.get("name"), String(m.get("current")).slice(0, 40), m.get("max") ? String(m.get("max")).slice(0, 20) : ""]);
+    const plain = names.filter(([n]) => !n.startsWith("repeating_")).sort((a, b) => a[0].localeCompare(b[0]));
+    const rep = {};
+    for (const [n, c] of names.filter(([n]) => n.startsWith("repeating_"))) {
+      const m = /^repeating_([^_]+)_(-[-\w]{19})_(.+)$/.exec(n);
+      const key = m ? m[1] : "?";
+      (rep[key] = rep[key] || { rows: new Set(), fields: new Set(), sample: [] }).rows.add(m ? m[2] : n);
+      if (m) { rep[key].fields.add(m[3]); if (rep[key].sample.length < 6) rep[key].sample.push(m[3] + "=" + c); }
+    }
+    log("--- plain attributes (" + plain.length + ") name=current[/max] ---");
+    log(plain.map(([n, c, mx]) => n + "=" + c + (mx ? "/" + mx : "")).join("\n"));
+    log("--- repeating sections ---");
+    for (const [k, v] of Object.entries(rep)) log(k, "rows:", v.rows.size, "fields:", [...v.fields].join(","), "| sample:", v.sample.join("; "));
+    log("--- token actions ---", pc.abilities ? pc.abilities.models.map((a) => a.get("name") + " → " + String(a.get("action")).slice(0, 80)) : "n/a");
+    log("Tip: for a long list press Copy and paste it into the chat.");
+  };
+
+  btn("1 Probe", probe); btn("2 Create", create); btn("3 Readback", readback); btn("4 Macros", macros); btn("5 Cleanup", cleanup); btn("6 Dump", dump);
   btn("Copy", async () => {
     ta.select();
     try { await navigator.clipboard.writeText(ta.value); log("(copied)"); } catch (_) { document.execCommand && document.execCommand("copy"); log("(copy attempted)"); }

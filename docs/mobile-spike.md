@@ -27,7 +27,9 @@ Jeśli edytor się nie ładuje, napisz mi, co widzisz (zrzut ekranu wystarczy). 
 | **4 Macros** | drukuje 12 makr; wklej każde w czat Roll20 i opisz, co się pojawia (działa / błąd / nic) | wynik z czatu (zrzut ekranu wystarczy) |
 | **5 Cleanup** | usuwa tylko postacie `Path20 spike*` | — |
 
-Minimum, jeśli czasu mało: **1 Probe**. Jest tylko do odczytu i rozstrzyga, czy cały plan z rozszerzeniem ma sens.
+| **6 Dump** | tylko odczyt: wypisuje atrybuty istniejącej karty (otwartej lub wskazanej nazwą). **Najlepiej na karcie natywnej, wpisanej ręcznie z Pathbuildera.** Dzięki temu poznamy prawdziwe nazwy pól | **Copy** → wklej do czatu |
+
+Minimum, jeśli czasu mało: **1 Probe**, a potem **6 Dump** na istniejącej karcie. Oba są tylko do odczytu i rozstrzyga, czy cały plan z rozszerzeniem ma sens.
 
 ## Ważne dla planu
 - Firefox na Androidzie obsługuje rozszerzenia z AMO, więc docelowe rozszerzenie może działać także na telefonie (Chrome na Androidzie nie). Do sprawdzenia na etapie 7.
