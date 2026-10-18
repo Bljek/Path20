@@ -1,0 +1,10 @@
+{
+  "name": "path20",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "build": "npm run build -w @path20/core",
+    "test": "npm test -w @path20/core",
+    "typecheck": "npm run typecheck -w @path20/core"
+  }
+}
